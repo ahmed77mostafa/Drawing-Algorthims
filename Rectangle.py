@@ -11,6 +11,6 @@ cv2.rectangle(image, start_point, end_point, color, -1)
 scaled_image = cv2.resize(image, None, fx = 1.5, fy = 1.5, interpolation = cv2.INTER_LINEAR)
 
 cv2.imshow('Original Rectangle', image)
-cv2.imshow('Scaled Rectangle', image)
+cv2.imshow('Scaled Rectangle', scaled_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
